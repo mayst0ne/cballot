@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb2d647-3092-4c53-8ee5-44979606e0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cballotdb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/cballotdb.sql" afterDir="false" />
-    </list>
+    <list default="true" id="1bb2d647-3092-4c53-8ee5-44979606e0d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cballotdb.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cballotdb.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cballotdb.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -64,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modelInscription.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="modelInscription.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/modelInscription.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -286,12 +283,12 @@
       <workItem from="1528710309433" duration="198000" />
       <workItem from="1528710573169" duration="2316000" />
       <workItem from="1528721413453" duration="11000" />
-      <workItem from="1528721488062" duration="1645000" />
+      <workItem from="1528721488062" duration="3054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55649000" />
+    <option name="totallyTimeSpent" value="57058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="3" width="1366" height="765" extended-state="6" />
@@ -476,19 +473,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/accueil.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/inscription.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IMIE/projectmgmt/cballot/bash/instructions.tex">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/view/viewAccueil.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,20 +497,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IMIE/projectmgmt/cballot/bash/instructions.tex">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/modelInscription.php">
+    <entry file="file://$PROJECT_DIR$/public/css/accueil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cballotdb.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/modelInscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
