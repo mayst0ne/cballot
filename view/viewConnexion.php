@@ -61,7 +61,7 @@
 
                 <div class="col-sm-3 my-1">
                     <label class="sr-only" for="inlineFormInputName">Password</label>
-                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Password">
+                    <input type="password" class="form-control" id="inlineFormInputName" placeholder="Password">
                 </div>
                 <div class="col-auto my-1">
                     <button type="submit" class="btn btn-primary">Connexion</button>

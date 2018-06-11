@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb2d647-3092-4c53-8ee5-44979606e0d2" name="Default" comment="" />
+    <list default="true" id="1bb2d647-3092-4c53-8ee5-44979606e0d2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/sondage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/unsub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/viewUnsub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewConnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewConnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewCreatSondage.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewCreatSondage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewDashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewDashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewInscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewInscription.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,29 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewDashboard.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="viewDashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/viewDashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="63" selection-end-column="7" />
+            <state relative-caret-position="166">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewCreatSondage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/viewCreatSondage.php">
+      <file leaf-file-name="unsub.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/unsub.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="72">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewAccueil.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/viewAccueil.php">
+      <file leaf-file-name="viewUnsub.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewUnsub.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+            <state relative-caret-position="234">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewInscription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewInscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/public/css/dashboard.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,15 +68,28 @@
       <file leaf-file-name="viewConnexion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/viewConnexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="69" selection-end-column="15" />
+            <state relative-caret-position="384">
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connexion.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/connexion.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="viewCreatSondage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewCreatSondage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sondage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/sondage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -71,6 +102,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,7 +133,6 @@
         <option value="$PROJECT_DIR$/view/viewAccueil.html" />
         <option value="$PROJECT_DIR$/view/header.html" />
         <option value="$PROJECT_DIR$/model/pdo.php" />
-        <option value="$PROJECT_DIR$/model/modelInscription.php" />
         <option value="$PROJECT_DIR$/model/function.php" />
         <option value="$PROJECT_DIR$/controller/controller.php" />
         <option value="$PROJECT_DIR$/model/modelConnexion.php" />
@@ -112,11 +145,15 @@
         <option value="$PROJECT_DIR$/public/css/accueil.css" />
         <option value="$PROJECT_DIR$/view/viewAccueil.php" />
         <option value="$PROJECT_DIR$/public/css/connexion.css" />
+        <option value="$PROJECT_DIR$/public/css/dashboard.css" />
         <option value="$PROJECT_DIR$/view/viewInscription.php" />
         <option value="$PROJECT_DIR$/view/viewConnexion.php" />
-        <option value="$PROJECT_DIR$/public/css/dashboard.css" />
-        <option value="$PROJECT_DIR$/view/viewDashboard.php" />
+        <option value="$PROJECT_DIR$/public/css/sondage.css" />
+        <option value="$PROJECT_DIR$/model/modelInscription.php" />
         <option value="$PROJECT_DIR$/view/viewCreatSondage.php" />
+        <option value="$PROJECT_DIR$/public/css/unsub.css" />
+        <option value="$PROJECT_DIR$/view/viewUnsub.php" />
+        <option value="$PROJECT_DIR$/view/viewDashboard.php" />
       </list>
     </option>
   </component>
@@ -135,6 +172,7 @@
     <option name="width" value="1323" />
     <option name="height" value="772" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,6 +185,16 @@
             <path>
               <item name="cballot" type="b2602c69:ProjectViewProjectNode" />
               <item name="cballot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cballot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cballot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cballot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cballot" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cballot" type="b2602c69:ProjectViewProjectNode" />
@@ -210,24 +258,24 @@
       <workItem from="1526281802134" duration="2337000" />
       <workItem from="1528701298612" duration="7619000" />
       <workItem from="1528710309433" duration="198000" />
-      <workItem from="1528710573169" duration="2316000" />
+      <workItem from="1528710573169" duration="9649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53993000" />
+    <option name="totallyTimeSpent" value="61326000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="-4" width="1323" height="772" extended-state="6" />
+    <frame x="-1323" y="764" width="1323" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15873016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15873016" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -249,10 +297,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/index.php" />
-    <entry file="file://$PROJECT_DIR$/modeles/modeleInscription.php" />
-    <entry file="file://$PROJECT_DIR$/vues/vueInscription.php" />
-    <entry file="file://$PROJECT_DIR$/vues/vueAccueil.html" />
     <entry file="file://$PROJECT_DIR$/modeles/modeleDeconnexion.php" />
     <entry file="file://$PROJECT_DIR$/vues/vueDashboard.php" />
     <entry file="file://$PROJECT_DIR$/test.php" />
@@ -310,27 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/modelInscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -373,41 +396,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/viewInscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/connexion.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/dashboard.css">
+    <entry file="file://$PROJECT_DIR$/public/css/sondage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/viewConnexion.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="69" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/viewDashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/viewCreatSondage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -415,6 +417,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/modelInscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewConnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewCreatSondage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/unsub.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewInscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewUnsub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewDashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
