@@ -2,7 +2,7 @@
 USE cballot;
 
 CREATE TABLE `person` (
-    `idperson` BIGINT  NOT NULL ,
+    `idperson` BIGINT AUTO_INCREMENT NOT NULL ,
     `email` VARCHAR(30)  NOT NULL ,
     `password` VARCHAR(30)  NOT NULL ,
     `firstname` VARCHAR(30)  NOT NULL ,
@@ -16,7 +16,7 @@ CREATE TABLE `person` (
 );
 
 CREATE TABLE `question` (
-    `idquestion` BIGINT  NOT NULL ,
+    `idquestion` BIGINT AUTO_INCREMENT NOT NULL ,
     `idcampaign` BIGINT  NOT NULL ,
     `label` VARCHAR(140)  NOT NULL ,
     PRIMARY KEY (
@@ -34,7 +34,7 @@ CREATE TABLE `vote` (
 );
 
 CREATE TABLE `campaign` (
-    `idcampaign` BIGINT  NOT NULL ,
+    `idcampaign` BIGINT AUTO_INCREMENT NOT NULL ,
     `idorganization` BIGINT  NOT NULL ,
     `name` VARCHAR(30)  NOT NULL ,
     `startdate` DATETIME  NOT NULL ,
@@ -45,7 +45,7 @@ CREATE TABLE `campaign` (
 );
 
 CREATE TABLE `option` (
-    `idoption` BIGINT  NOT NULL ,
+    `idoption` BIGINT AUTO_INCREMENT NOT NULL ,
     `idquestion` BIGINT  NOT NULL ,
     `name` VARCHAR(30)  NOT NULL ,
     PRIMARY KEY (
@@ -54,7 +54,7 @@ CREATE TABLE `option` (
 );
 
 CREATE TABLE `organization` (
-    `idorganization` BIGINT  NOT NULL ,
+    `idorganization` BIGINT AUTO_INCREMENT NOT NULL ,
     `idorganizer` BIGINT  NOT NULL ,
     `name` VARCHAR(30)  NOT NULL ,
     PRIMARY KEY (
@@ -63,7 +63,7 @@ CREATE TABLE `organization` (
 );
 
 CREATE TABLE `retention` (
-    `idretention` BIGINT  NOT NULL ,
+    `idretention` BIGINT AUTO_INCREMENT NOT NULL ,
     `email` VARCHAR(30)  NOT NULL ,
     `firstname` VARCHAR(30)  NOT NULL ,
     `lastname` VARCHAR(30)  NOT NULL ,
