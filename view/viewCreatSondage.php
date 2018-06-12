@@ -15,44 +15,44 @@ session_start();
 <!-- inclusion header -->
 <?php include('../view/header.php') ?>
 
-<main>
-    <!-- navbar -->
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="../view/viewDashboard.php">Mon Dashboard</a>
-        </li>
+    <main>
+        <!-- navbar -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="../view/viewDashboard.php">Mon Dashboard</a>
+            </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="">Conditions generales</a>
-        </li>
-    </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="">Conditions generales</a>
+            </li>
+        </ul>
 
-    <!-- création du sondage par l'utilisateur
-    donné un titre à son sondage
-    il peut remplir plusieurs questions
-    plusieurs choix de réponses par questions
-    donné un deadline (une date) à son sondage
-    appuyer sur le bouton création
-    -->
-    <form method="post" action="">
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Titre du sondage :</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" required>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">La date limite de votre sondage :</label>
-            <input type="date" class="form-control" id="exampleFormControlInput1" required>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Votre question :</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" required>
-        </div>
+        <!-- création du sondage par l'utilisateur
+        donné un titre à son sondage
+        il peut remplir plusieurs questions
+        plusieurs choix de réponses par questions
+        donné un deadline (une date) à son sondage
+        appuyer sur le bouton création
+        -->
+        <form method="post" action="">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Titre du sondage :</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">La date limite de votre sondage :</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Votre question :</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required>
+            </div>
 
-        <button type="submit" class="btn btn-primary mb-2">Création du sondage</button>
-    </form>
-</main>
+            <button type="submit" class="btn btn-primary mb-2">Création du sondage</button>
+        </form>
+    </main>
 
-<!-- inclusion footer -->
-<?php include ('../view/footer.php') ?>
+    <!-- inclusion footer -->
+    <?php include ('../view/footer.php') ?>
 </body>
 </html>

@@ -27,7 +27,7 @@ session_start();
         </ul>
 
         <p>Bonjour <? $_SESSION['firstname']?> <? $_SESSION['lastname']?></p>
-        <p>Ton email de connexion: <?= $_SESSION['email']?> </p>
+        <p>Ton email de connexion: <?= $_SESSION['email']?></p>
 
         <a href="../view/viewCreatSondage.php" class="badge badge-primary">Création sondage</a>
 

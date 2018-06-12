@@ -32,21 +32,7 @@
             </li>
         </ul>
 
-        <!-- connexion
-
-        <legend>Connexion</legend>
-        <form method="POST" action="../model/modelConnexion.php">
-
-            <label for="email">Email :</label>
-            <input type="text" name="email" placeholder="email" maxlength="30" required /><br>
-
-            <label for="password">Votre mot de passe :</label>
-            <input type="password" name="password" placeholder="mot de passe" maxlength="30" required /><br>
-
-            <button type="submit">Connexion</button>
-        </form>
-        -->
-        <!-- test en bootstrap -->
+        <!-- connexion -->
         <form method="" action="">
             <div class="form-row align-items-center">
                 <div class="col-sm-3 my-1">

@@ -32,77 +32,51 @@
                 <a class="nav-link" href="../view/viewAccueil.php">Conditions generales</a>
             </li>
         </ul>
-        <!-- inscription
-        <fieldset>
-            <legend>Inscription</legend>
-            <form method="post" action="../model/modelInscription.php">
-
-                <label for="email">Email :</label>
-                <input type="text" name="email" placeholder="email" maxlength="30" required /><br>
-
-                <label for="firstname">Prénom :</label>
-                <input type="text" name="firstname" placeholder="Prénom" maxlength="30" required /><br>
-
-                <label for="lastname">Nom :</label>
-                <input type="text" name="lastname" placeholder="Nom" maxlength="30" required /><br>
-
-                <label for="birthdate">Date de naissance :</label>
-                <input type="date" name="birthdate" required /><br>
-
-                <label for="password">Votre mot de passe :</label>
-                <input type="password" name="password" placeholder="mot de passe" maxlength="30" required /><br>
-
-                <label for="password">Confirmation mot de passe :</label>
-                <input type="password" name="password_confirm" placeholder="mot de passe" maxlength="30" /><br>
-
-                <button type="submit">Inscription</button>
-            </form>
-        </fieldset>
-        <!-- test bootsrap inscription -->
-        <form>
+        <!-- inscription -->
+        <form method="post" action="../model/modelInscription.php">
             <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Votre Nom :</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="Nom"
-                           maxlength="30" required>
+                           maxlength="30" name="lastname" required>
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Votre Prénom :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Prénom" maxlength="30" required>
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Prénom" maxlength="30" name="firstname" required>
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Votre Email :</label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email" required>
                 </div>
             </div>
-
+            <!--
             <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Confirmation de votre Email :</label>
                 <div class="col-sm-10">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Confirm Email" required>
                 </div>
             </div>
-
+            -->
             <div class="form-group row">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Votre mot de passe :</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required>
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password" required>
                 </div>
             </div>
-
+            <!--
             <div class="form-group row">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Confirmation de votre mot de passe :</label>
                 <div class="col-sm-10">
                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required>
                 </div>
             </div>
-
+            -->
             <div class="form-group row">
                 <div class="col-sm-10">
                     <button type="submit" class="btn btn-primary">Inscription</button>
@@ -111,7 +85,7 @@
         </form>
     </main>
 
-    <!-- rajout d'un footer bas de page -->
+    <!-- footer -->
     <?php include('../view/footer.php');?>
 
 </body>
