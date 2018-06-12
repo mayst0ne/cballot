@@ -4,7 +4,7 @@ USE cballot;
 CREATE TABLE `person` (
     `idperson` BIGINT AUTO_INCREMENT NOT NULL ,
     `email` VARCHAR(30)  NOT NULL ,
-    `password` VARCHAR(30)  NOT NULL ,
+    `password` VARCHAR(128)  NOT NULL ,
     `firstname` VARCHAR(30)  NOT NULL ,
     `lastname` VARCHAR(30)  NOT NULL ,
     PRIMARY KEY (
