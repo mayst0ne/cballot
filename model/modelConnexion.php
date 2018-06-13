@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 //Message erreur si utilisateur déjà connecté
 include ('pdo.php');
@@ -45,6 +46,9 @@ function connection() {
 connection();
 
 /* 3
+=======
+include ('pdo.php');
+>>>>>>> 58d4ce026ab6c6f8d471cd0965ea48c1c7af8c83
 //  Récupération de l'utilisateur et de son pass hashé
 $req = $pdo->prepare('SELECT email, password FROM person WHERE email=:email, password=:password');
 $req->execute(array(
@@ -65,6 +69,7 @@ $isPasswordCorrect = password_verify($_POST['password'], $resultat['password']);
         echo 'Mauvais identifiant ou mot de passe !';
     }
 }
+<<<<<<< HEAD
 
 /* 4 */
 $email = $_POST['email'];
@@ -87,3 +92,6 @@ if ($isPasswordCorrect) {
 } else {
     header('Location:../view/viewAccueil.php');
 }
+=======
+header('Location:../view/viewDashboard.php');
+>>>>>>> 58d4ce026ab6c6f8d471cd0965ea48c1c7af8c83
