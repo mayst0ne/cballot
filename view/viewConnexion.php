@@ -33,7 +33,7 @@
         </ul>
 
         <!-- connexion -->
-        <form method="" action="">
+        <form method="post" action="../model/modelConnexion.php" class="container-fluid">
             <div class="form-row align-items-center">
                 <div class="col-sm-3 my-1">
                     <label class="sr-only" for="inlineFormInputGroupUsername">Email</label>
@@ -41,13 +41,13 @@
                         <div class="input-group-prepend">
                             <div class="input-group-text">@</div>
                         </div>
-                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email" name="email" required>
                     </div>
                 </div>
 
                 <div class="col-sm-3 my-1">
                     <label class="sr-only" for="inlineFormInputName">Password</label>
-                    <input type="password" class="form-control" id="inlineFormInputName" placeholder="Password">
+                    <input type="password" class="form-control" id="inlineFormInputName" placeholder="Password" name="password" required>
                 </div>
                 <div class="col-auto my-1">
                     <button type="submit" class="btn btn-primary">Connexion</button>

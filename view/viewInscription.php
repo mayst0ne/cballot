@@ -32,26 +32,29 @@
                 <a class="nav-link" href="../view/viewAccueil.php">Conditions generales</a>
             </li>
         </ul>
+
+        <!--<i class="fas fa-user-circle"></i>-->
+
         <!-- inscription -->
-        <form method="post" action="../model/modelInscription.php">
+        <form method="post" action="../model/modelInscription.php" class="container-fluid">
             <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Votre Nom :</label>
-                <div class="col-sm-10">
+                <!--<label for="inputEmail3" class="col-sm-2 col-form-label">Votre Nom :</label> -->
+                <div class="col-sm-5">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="Nom"
                            maxlength="30" name="lastname" required>
                 </div>
             </div>
 
             <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Votre Prénom :</label>
-                <div class="col-sm-10">
+                <!--<label for="inputEmail3" class="col-sm-2 col-form-label">Votre Prénom :</label>-->
+                <div class="col-sm-5">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="Prénom" maxlength="30" name="firstname" required>
                 </div>
             </div>
 
             <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Votre Email :</label>
-                <div class="col-sm-10">
+                <!--<label for="inputEmail3" class="col-sm-2 col-form-label">Votre Email :</label>-->
+                <div class="col-sm-5">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email" required>
                 </div>
             </div>
@@ -64,8 +67,8 @@
             </div>
             -->
             <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Votre mot de passe :</label>
-                <div class="col-sm-10">
+                <!--<label for="inputPassword3" class="col-sm-2 col-form-label">Votre mot de passe :</label>-->
+                <div class="col-sm-5">
                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password" required>
                 </div>
             </div>
@@ -78,7 +81,7 @@
             </div>
             -->
             <div class="form-group row">
-                <div class="col-sm-10">
+                <div class="col-sm-8">
                     <button type="submit" class="btn btn-primary">Inscription</button>
                 </div>
             </div>

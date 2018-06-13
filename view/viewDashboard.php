@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 ?>
 <!DOCTYPE html>
@@ -26,8 +26,8 @@ session_start();
             </li>
         </ul>
 
-        <p>Bonjour <? $_SESSION['firstname']?> <? $_SESSION['lastname']?></p>
-        <p>Ton email de connexion: <?= $_SESSION['email']?></p>
+        <p>Bonjour <?php echo $_SESSION['firstname'];?> <?php echo $_SESSION['lastname'];?></p>
+        <p>Ton email de connexion: <?php echo $_SESSION['email'];?></p>
 
         <a href="../view/viewCreatSondage.php" class="badge badge-primary">Création sondage</a>
 
@@ -36,7 +36,7 @@ session_start();
             a des sondages en cours, boucle sur les sondages -->
 
         <!-- Déconnexion -->
-        <form method="post" action="">
+        <form method="post" action="../model/modelDeconnexion.php">
             <div class="col-auto my-1">
                 <button type="submit" class="btn btn-primary">Deconnexion</button>
             </div>

@@ -6,5 +6,5 @@ session_unset();
 session_destroy();
 
 // On redirige le visiteur vers la page d'accueil
-header('location: vues/vueAccueil.html');
+header('Location: ../view/viewAccueil.php');
 
