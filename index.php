@@ -1,2 +1,2 @@
 <?php
-require "view/viewAccueil.php";
+header('Location:../cballot/view/viewAccueil.php') ;
