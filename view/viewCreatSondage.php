@@ -27,6 +27,8 @@ session_start();
             </li>
         </ul>
 
+        <p>Ton email de connexion: <?php echo $_SESSION['email'];?></p>
+
         <!-- création du sondage par l'utilisateur
         donné un titre à son sondage
         il peut remplir plusieurs questions
@@ -34,7 +36,8 @@ session_start();
         donné un deadline (une date) à son sondage
         appuyer sur le bouton création
         -->
-        <form method="post" action="">
+
+        <form method="post" action="../model/modelCreatSond.php">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Titre du sondage :</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" required>
