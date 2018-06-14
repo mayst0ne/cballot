@@ -12,8 +12,8 @@ session_start();
 </head>
 
 <body>
-<!-- inclusion header -->
-<?php include('../view/header.php') ?>
+    <!-- inclusion header -->
+    <?php include('../view/header.php') ?>
 
     <main>
         <!-- navbar -->

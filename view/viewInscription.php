@@ -11,8 +11,6 @@
 <body>
     <!-- un header haut de page -->
     <?php include('../view/header.php') ?>
-
-    <?php require '../model/function.php' ?>
     <main>
         <!-- navbar -->
         <ul class="nav justify-content-center">
@@ -87,9 +85,7 @@
             </div>
         </form>
     </main>
-
     <!-- footer -->
     <?php include('../view/footer.php');?>
-
 </body>
 </html>

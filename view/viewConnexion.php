@@ -18,15 +18,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="../view/viewAccueil.php">Accueil</a>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link active" href="../view/viewInscription.php">Inscription</a>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="../view/viewConnexion.php">Connexion</a>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="../view/viewAccueil.php">Conditions generales</a>
             </li>
@@ -44,19 +41,17 @@
                         <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email" name="email" required>
                     </div>
                 </div>
-
                 <div class="col-sm-3 my-1">
                     <label class="sr-only" for="inlineFormInputName">Password</label>
                     <input type="password" class="form-control" id="inlineFormInputName" placeholder="Password" name="password" required>
                 </div>
+
                 <div class="col-auto my-1">
                     <button type="submit" class="btn btn-primary">Connexion</button>
                 </div>
             </div>
         </form>
-
     </main>
-
     <?php include('../view/footer.php') ?>
 </body>
 </html>

@@ -14,7 +14,6 @@ session_start();
 <body>
     <!-- inclusion header -->
     <?php include('../view/header.php') ?>
-
     <main>
         <!-- navbar -->
         <ul class="nav justify-content-center">
@@ -36,7 +35,6 @@ session_start();
             </div>
         </form>
     </main>
-
     <!-- inclusion footer -->
     <?php include ('../view/footer.php') ?>
 </body>

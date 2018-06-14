@@ -45,7 +45,6 @@ session_start();
         <!-- désinscription -->
         <a href="../view/viewUnsub.php" class="badge badge-danger">Me désinscrire</a>
     </main>
-
     <!-- inclusion footer -->
     <?php include ('../view/footer.php') ?>
 </body>
