@@ -67,7 +67,7 @@
             <div class="form-group row">
                 <!--<label for="inputEmail3" class="col-sm-2 col-form-label">Votre Email :</label>-->
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Société" name="name" required>
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Société" name="societe" required>
                 </div>
             </div>
             <div class="form-group row">
