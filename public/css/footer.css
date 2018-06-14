@@ -1,5 +1,9 @@
 footer {
     background-color: cornflowerblue;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
 }
 p {
     text-align: center;

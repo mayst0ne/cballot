@@ -65,6 +65,12 @@
             </div>
             -->
             <div class="form-group row">
+                <!--<label for="inputEmail3" class="col-sm-2 col-form-label">Votre Email :</label>-->
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Société" name="name" required>
+                </div>
+            </div>
+            <div class="form-group row">
                 <!--<label for="inputPassword3" class="col-sm-2 col-form-label">Votre mot de passe :</label>-->
                 <div class="col-sm-5">
                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password" required>
