@@ -12,6 +12,7 @@ session_start();
 </head>
 
 <body>
+
     <!-- inclusion header -->
     <?php include('../view/header.php') ?>
     <main>
@@ -26,7 +27,7 @@ session_start();
             </li>
         </ul>
 
-        <p>Bonjour <?php echo $_SESSION['firstname'];?> <?php echo $_SESSION['lastname'];?></p>
+
         <p>Ton email de connexion: <?php echo $_SESSION['email'];?></p>
 
         <a href="../view/viewCreatSondage.php" class="badge badge-primary">Création sondage</a>
@@ -42,7 +43,7 @@ session_start();
             </div>
         </form>
 
-        <!-- désinscription -->
+        <!-- lien vers une désinscription -->
         <a href="../view/viewUnsub.php" class="badge badge-danger">Me désinscrire</a>
     </main>
     <!-- inclusion footer -->

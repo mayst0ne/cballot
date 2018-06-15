@@ -27,6 +27,7 @@ session_start();
             </li>
         </ul>
 
+
         <p>Ton email de connexion: <?php echo $_SESSION['email'];?></p>
 
         <!-- création du sondage par l'utilisateur
@@ -37,21 +38,61 @@ session_start();
         appuyer sur le bouton création
         -->
 
-        <form method="post" action="../model/modelCreatSond.php">
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Titre du sondage :</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" required>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">La date limite de votre sondage :</label>
-                <input type="date" class="form-control" id="exampleFormControlInput1" required>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Votre question :</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" required>
+        <form method="post" action="../model/modelCreatSondage.php" class="container-fluid">
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Titre du sondage :</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" name="title" required>
+                </div>
             </div>
 
-            <button type="submit" class="btn btn-primary mb-2">Création du sondage</button>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Date de début:</label>
+                <div class="col-sm-5">
+                    <input type="date" class="form-control" id="inputEmail3" name="startdate" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Date de fin :</label>
+                <div class="col-sm-5">
+                    <input type="date" class="form-control" id="inputEmail3" name="enddate" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">La question de votre sondage :</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" name="question" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Réponse numéro 1 :</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" name="reponse1" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Réponse numéro 2 :</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" name="reponse2" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Réponse numéro 3 :</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" name="reponse3" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-8">
+                    <button type="submit" class="btn btn-primary">Création du sondage</button>
+                </div>
+            </div>
         </form>
     </main>
 

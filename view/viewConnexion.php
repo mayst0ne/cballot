@@ -19,7 +19,7 @@
                 <a class="nav-link" href="../view/viewAccueil.php">Accueil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="../view/viewInscription.php">Inscription</a>
+                <a class="nav-link" href="../view/viewInscription.php">Inscription</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../view/viewConnexion.php">Connexion</a>
@@ -32,6 +32,7 @@
         <!-- connexion -->
         <form method="post" action="../model/modelConnexion.php" class="container-fluid">
             <div class="form-row align-items-center">
+
                 <div class="col-sm-3 my-1">
                     <label class="sr-only" for="inlineFormInputGroupUsername">Email</label>
                     <div class="input-group">
@@ -41,6 +42,7 @@
                         <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email" name="email" required>
                     </div>
                 </div>
+
                 <div class="col-sm-3 my-1">
                     <label class="sr-only" for="inlineFormInputName">Password</label>
                     <input type="password" class="form-control" id="inlineFormInputName" placeholder="Password" name="password" required>
@@ -52,6 +54,7 @@
             </div>
         </form>
     </main>
+
     <?php include('../view/footer.php') ?>
 </body>
 </html>

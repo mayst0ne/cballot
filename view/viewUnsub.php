@@ -26,9 +26,10 @@ session_start();
             </li>
         </ul>
 
-        <p>Grace à la nouvelle norme RGPD, vous pouvez vous désinscrire sans problème</p>
-        <p>Un méssage sera envoyer à l'administrateur du site pour vous désinscrire de la base de données</p>
+        <p>Grâce à la nouvelle norme RGPD, vous pouvez vous désinscrire sans problème</p>
+        <p>Un méssage sera envoyer à l'administrateur pour vous désinscrire de la base de données du site</p>
 
+        <!--bouton d'envoi d'email à l'admin lui indiquant quel utilisateur souhaite se désinscrire-->
         <form method="post" action="">
             <div class="col-auto my-1">
                 <button type="submit" class="btn btn-primary">Confirmer ma désinscription</button>

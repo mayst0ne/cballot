@@ -17,7 +17,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link active" href="../view/viewInscription.php">Inscription</a>
+            <a class="nav-link" href="../view/viewInscription.php">Inscription</a>
         </li>
 
         <li class="nav-item">
