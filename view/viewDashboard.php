@@ -23,12 +23,23 @@ session_start();
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="">Conditions generales</a>
+                <a class="nav-link" href="https://www.cnil.fr/fr/rgpd-par-ou-commencer">Conditions generales</a>
             </li>
         </ul>
 
-
         <p>Ton email de connexion: <?php echo $_SESSION['email'];?></p>
+        <?php
+        include ('../model/pdo.php');
+        $emailsession = $_SESSION['email'];
+
+            $query = $pdo->prepare('SELECT firstname, lastname , idorganization, name, idorganizer FROM person INNER JOIN organization ON person.idperson=organization.idorganizer WHERE email=:email');
+
+            $query->execute(array(
+                ':email' => $emailsession,
+                ));
+            $row = $query->fetch(PDO::FETCH_ASSOC);
+            ?>
+        <p>Ton prénom : <?php echo $row['firstname']; ?> / ton nom : <?php echo $row['lastname']; ?></p>
 
         <a href="../view/viewCreatSondage.php" class="badge badge-primary">Création sondage</a>
 

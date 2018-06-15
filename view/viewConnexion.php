@@ -25,7 +25,7 @@
                 <a class="nav-link" href="../view/viewConnexion.php">Connexion</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../view/viewAccueil.php">Conditions generales</a>
+                <a class="nav-link" href="https://www.cnil.fr/fr/rgpd-par-ou-commencer">Conditions generales</a>
             </li>
         </ul>
 

@@ -22,7 +22,7 @@ session_start();
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="../view/viewAccueil.php">Conditions generales</a>
+                <a class="nav-link" href="https://www.cnil.fr/fr/rgpd-par-ou-commencer">Conditions generales</a>
             </li>
         </ul>
 
@@ -30,7 +30,7 @@ session_start();
         <p>Un méssage sera envoyer à l'administrateur pour vous désinscrire de la base de données du site</p>
 
         <!--bouton d'envoi d'email à l'admin lui indiquant quel utilisateur souhaite se désinscrire-->
-        <form method="post" action="">
+        <form method="post" action="../model/modelMail.php">
             <div class="col-auto my-1">
                 <button type="submit" class="btn btn-primary">Confirmer ma désinscription</button>
             </div>
